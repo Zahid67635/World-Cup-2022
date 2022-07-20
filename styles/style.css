@@ -18,7 +18,10 @@ body {
     background-color: black;
     border-radius: 30px;
 
+}
 
+.container:hover {
+    border: 3px solid red;
 }
 
 .half-width {
@@ -131,6 +134,10 @@ body {
 
 }
 
+.card:hover {
+    border: 2px solid purple;
+}
+
 .half-card img {
     width: 100%;
 }
@@ -169,4 +176,42 @@ body {
     font-weight: 600;
     font-size: 16px;
     color: black;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer hr {
+    border: 1px solid gray;
+    margin: 20px 10px;
+    width: 80%;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 30px 15px;
+}
+
+/* 2nd page  */
+
+
+.right-half {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+
+.left-half {
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
 }
